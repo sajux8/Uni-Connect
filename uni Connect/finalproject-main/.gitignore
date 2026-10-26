@@ -1,0 +1,18 @@
+# Repo-wide ignores. The app has its own apps/web/.gitignore for build output.
+
+# local editor settings
+.vscode/
+.idea/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Word lock files
+~$*
+
+# secrets, wherever they end up
+.env
+.env.*
+!.env.example
